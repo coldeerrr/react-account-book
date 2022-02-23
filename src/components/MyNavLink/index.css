@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+.item {
+    display: block;
+    flex: 1;
+    height: 100%;
+}
+.no {
+    color: black;
+    background-color: orange;
+}
+.yes {
+    color: pink;
+    background-color: orange;
+}
