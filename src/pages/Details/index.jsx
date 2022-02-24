@@ -1,9 +1,13 @@
-import React, { Component } from 'react'
+import './index.css'
+import Header from '../../components/Details/Header'
+import List from '../../components/Details/List'
 
-export default class Details extends Component {
-  render() {
-    return (
-      <div>Details</div>
-    )
-  }
+const Details = props => {
+  return(
+    <div>
+      <Header />
+      <List />
+    </div>
+  )
 }
+export default Details

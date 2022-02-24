@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* background-color: #ffda44; */
+    background: linear-gradient(to bottom, rgb(255, 218, 68) 110px, rgb(255, 255, 255) 100%);
+    /* background: linear-gradient(to bottom, lime 28px, red 77%); */
+}
+.slogan {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    width: 70px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../../../assets/images/slogan.png);
+}
+.data {
+    position: absolute;
+    bottom: 35%;
+    text-align: center;
+}
+.data p {
+    font-size: 22px;
+    font-weight: 200;
+}
+.data span {
+    display: block;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(95, 95, 95);
+}
+.in {
+    left: 10%;
+}
+.out {
+    right: 10%;
+}
+.blank {
+    position: absolute;
+    width: 94%;
+    height: 60px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px 0px #f7f7f79a;
+    display: flex;
+    flex-direction: row;
+}
+.blank > * {
+    flex: 1;
+    height: 100%;
+    margin: 0 10px;
+}

@@ -1,0 +1,32 @@
+.mylink a {
+    display: block;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    /* background-color: tomato; */
+}
+.mylink span {
+    display: inline-block;
+    color: black;
+    font-size: 9px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+.bill{
+    background-image: url(../../../../assets/images/det_bill.png);
+}
+.budget{
+    background-image: url(../../../../assets/images/det_budget.png);
+}
+.butler{
+    background-image: url(../../../../assets/images/det_butler.png);
+}
+.knowledge{
+    background-image: url(../../../../assets/images/det_knowledge.png);
+}
+.cashback{
+    background-image: url(../../../../assets/images/det_cashback.png);
+}
