@@ -1,4 +1,4 @@
-import { Route, Routes, NavLink } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import MyNavLink from '../MyNavLink'
 
 // 引入各个路由
@@ -16,7 +16,7 @@ const Nav = props => {
             <div className='nav'>
                 <MyNavLink to='/details'>details</MyNavLink>
                 <MyNavLink to='/chart'>chart</MyNavLink>
-                <MyNavLink to='/add'>add</MyNavLink>
+                <MyNavLink className='aa' to='/add'>add</MyNavLink>
                 <MyNavLink to='/community'>community</MyNavLink>
                 <MyNavLink to='/my'>my</MyNavLink>
             </div>
