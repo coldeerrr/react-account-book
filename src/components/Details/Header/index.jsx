@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import MyLink from '../MyLink'
-import Bill from '../../../pages/Details/Bill'
-import Budget from '../../../pages/Details/Budget'
-import Butler from '../../../pages/Details/Butler'
-import Knowledge from '../../../pages/Details/Knowledge'
-import Cashback from '../../../pages/Details/Cashback'
+import Bill from '@/pages/Details/Bill'
+import Budget from '@/pages/Details/Budget'
+import Butler from '@/pages/Details/Butler'
+import Knowledge from '@/pages/Details/Knowledge'
+import Cashback from '@/pages/Details/Cashback'
 import './index.css'
 
 const Header = props => {

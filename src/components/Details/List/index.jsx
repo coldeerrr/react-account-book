@@ -35,7 +35,7 @@ const List = props => {
     ]);
     return (
         <div>
-            <ul className="list">
+            <ul className="billlist">
                 {
                     list.map((item, index) => {
                         const [ bill ] = item.bills

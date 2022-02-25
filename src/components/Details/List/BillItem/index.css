@@ -1,0 +1,54 @@
+.billlist .type_1 {
+    background-image: url(@/assets/images/type/e_catering_l@3x.png);
+}
+.billlist .type_2 {
+    background-image: url(@/assets/images/type/cc_shopping_shopping_trolley_l@3x.png);
+}
+.billlist .type_3 {
+    background-image: url(@/assets/images/type/e_commodity_l@3x.png);
+}
+.billlist .type_4 {
+    background-image: url(@/assets/images/type/cc_traffic_taxi_l@3x.png);
+}
+.billlist .type_5 {
+    background-image: url(@/assets/images/type/e_vegetable_l@3x.png);
+}
+.billlist .type_6 {
+    background-image: url(@/assets/images/type/e_fruite_l@3x.png);
+}
+.billlist .type_7 {
+    background-image: url(@/assets/images/type/e_snack_l@3x.png);
+}
+.billlist .type_8 {
+    background-image: url(@/assets/images/type/cc_life_holiday_l@3x.png);
+}
+.billlist .type_9 {
+    background-image: url(@/assets/images/type/cc_fitness_running_l@3x.png);
+}
+.billlist .type_10 {
+    background-image: url(@/assets/images/type/e_communicate_l@3x.png);
+}
+.billlist .type_11 {
+    background-image: url(@/assets/images/type/cc_life_candlelight_l@3x.png);
+}
+.billlist .type_12 {
+    background-image: url(@/assets/images/type/cc_study_book_l@3x.png);
+}
+.billlist .type_13 {
+    background-image: url(@/assets/images/type/e_medical_l@3x.png);
+}
+.billlist .type_14 {
+    background-image: url(@/assets/images/type/e_house_l@3x.png);
+}
+.billlist .type_15 {
+    background-image: url(@/assets/images/type/cc_personal_money_l@3x.png);
+}
+.billlist .type_16 {
+    background-image: url(@/assets/images/type/i_wage_l@3x.png);
+}
+.billlist .type_17 {
+    background-image: url(@/assets/images/type/i_finance_l@3x.png);
+}
+.billlist .type_18 {
+    background-image: url(@/assets/images/type/i_other_l@3x.png);
+}

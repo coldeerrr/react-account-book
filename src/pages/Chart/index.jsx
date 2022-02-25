@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Total from '../../components/Chart/Total'
+import Total from '@/components/Chart/Total'
 import './index.css'
 
 const Chart = props => {

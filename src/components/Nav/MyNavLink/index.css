@@ -15,20 +15,20 @@
     font-weight: 200;
 }
 .chart_n {
-    background-image: url(../../../assets/images/nav_chart_n.png);
+    background-image: url(@/assets/images/nav_chart_n.png);
 }
 .chart_y {
-    background-image: url(../../../assets/images/nav_chart_y.png);
+    background-image: url(@/assets/images/nav_chart_y.png);
 }
 .details_n {
-    background-image: url(../../../assets/images/nav_details_n.png);
+    background-image: url(@/assets/images/nav_details_n.png);
 }
 .details_y {
-    background-image: url(../../../assets/images/nav_details_y.png);
+    background-image: url(@/assets/images/nav_details_y.png);
 }
 .my_n {
-    background-image: url(../../../assets/images/nav_my_n.png);
+    background-image: url(@/assets/images/nav_my_n.png);
 }
 .my_y {
-    background-image: url(../../../assets/images/nav_my_y.png);
+    background-image: url(@/assets/images/nav_my_y.png);
 }

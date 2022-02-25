@@ -2,9 +2,9 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 import MyNavLink from './MyNavLink'
 
 // 引入各个路由
-import Chart from '../../pages/Chart'
-import Details from '../../pages/Details'
-import My from '../../pages/My'
+import Chart from '@/pages/Chart'
+import Details from '@/pages/Details'
+import My from '@/pages/My'
 
 import './index.css'
 

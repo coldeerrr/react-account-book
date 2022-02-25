@@ -1,31 +1,33 @@
-.list li {
+.billlist li {
     position: relative;
     height: 60px;
     /* background-color: antiquewhite; */
 }
-.list li span {
+.billlist li span {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     display: block;
     width: 36px;
     height: 36px;
-    background-color: tomato;
+    /* background-color: tomato; */
     border-radius: 40px;
     left: 5%;
+    background-size: 100%;
 }
-.list li h1 {
+.billlist li h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     left: 20%;
 }
-.list li em {
+.billlist li em {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 5%;
     font-style: normal;
+    font-size: 14px;
 }

@@ -1,7 +1,7 @@
 import './index.css'
-import Header from '../../components/Details/Header'
-import List from '../../components/Details/List'
-import MyLink from '../../components/Details/MyLink'
+import Header from '@/components/Details/Header'
+import List from '@/components/Details/List'
+import MyLink from '@/components/Details/MyLink'
 import Add from './Add'
 import { Routes, Route } from 'react-router-dom'
 

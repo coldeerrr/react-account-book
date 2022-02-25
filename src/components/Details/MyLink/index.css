@@ -16,19 +16,19 @@
     margin-top: 40px;
 }
 .bill{
-    background-image: url(../../../assets/images/det_bill.png);
+    background-image: url(@/assets/images/det_bill.png);
 }
 .budget{
-    background-image: url(../../../assets/images/det_budget.png);
+    background-image: url(@/assets/images/det_budget.png);
 }
 .butler{
-    background-image: url(../../../assets/images/det_butler.png);
+    background-image: url(@/assets/images/det_butler.png);
 }
 .knowledge{
-    background-image: url(../../../assets/images/det_knowledge.png);
+    background-image: url(@/assets/images/det_knowledge.png);
 }
 .cashback{
-    background-image: url(../../../assets/images/det_cashback.png);
+    background-image: url(@/assets/images/det_cashback.png);
 }
 .mylink .add {
     position: fixed;
