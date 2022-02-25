@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+import Total from '../../components/Chart/Total'
+import './index.css'
 
-export default class Chart extends Component {
-  render() {
-    return (
-      <div>Charts</div>
-    )
-  }
+const Chart = props => {
+  return (
+    <div>
+      <Total />
+    </div>
+  )
 }
+
+export default Chart

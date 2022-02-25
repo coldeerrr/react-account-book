@@ -14,10 +14,10 @@
     margin: 0 5px;
     /* background-color: aquamarine; */
 }
-.nav div:nth-child(3) {
+/* .nav div:nth-child(3) {
     z-index: 1000;
     flex-grow: 1.8;
 }
 .nav div:nth-child(3) a {
     background-position: center -1px;
-}
+} */

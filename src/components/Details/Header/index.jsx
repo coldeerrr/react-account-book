@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import MyLink from './MyLink'
+import MyLink from '../MyLink'
 import Bill from '../../../pages/Details/Bill'
 import Budget from '../../../pages/Details/Budget'
 import Butler from '../../../pages/Details/Butler'
