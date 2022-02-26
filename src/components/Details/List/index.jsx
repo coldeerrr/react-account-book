@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './index.css'
 import BillItem from './BillItem'
-// import { transDate } from '@/utils/functions'
+import { transDate } from '@/utils/functions'
 
 const List = props => {
     const [list, setList] = useState([
@@ -42,26 +42,17 @@ const List = props => {
             ]
         },
     ]);
-    function transDate(n) {
-        const date = new Date(n);
-        const Y = date.getFullYear() + '-';
-        const M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
-        const D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
-        return (Y + M + D);
-    }
+
     // 处理原数组, 把时间戳转为时间
-    for (let i = 0; i < list.length; i++) {
-        const timeitem = transDate(list[i].bills[0].date*1);
-        list[i].bills[0].date = timeitem;
-    }
-    console.log(list);
+    list.map(listObj => listObj.bills[0].date = transDate(listObj.bills[0].date*1))
+    
+    // 按时间分类, 构建新数组
     const mapDate = function (list) {
         let newList = [];
         list.forEach((item, i) => {
             let index = -1;
             let alreadyExist = newList.some((newItem, j) => {
-                console.log(item.bills[0].date == newItem.bills[0].date);
-                if (item.bills[0].date == newItem.bills[0].date) {
+                if (item.bills[0].date == newItem.date) {
                     index = j;
                     return true;
                 }
@@ -78,6 +69,7 @@ const List = props => {
         return newList;
     }
     console.log(mapDate(list));
+    console.log(111);
     return (
         <div>
             <ul className="billlist">
