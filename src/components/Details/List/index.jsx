@@ -44,8 +44,8 @@ const List = props => {
     ]);
 
     // 处理原数组, 把时间戳转为时间
-    list.map(listObj => listObj.bills[0].date = transDate(listObj.bills[0].date*1))
-    
+    list.map(listObj => listObj.bills[0].date = transDate(listObj.bills[0].date * 1));
+
     // 按时间分类, 构建新数组
     const mapDate = function (list) {
         let newList = [];
@@ -68,18 +68,17 @@ const List = props => {
         });
         return newList;
     }
-    console.log(mapDate(list));
-    console.log(111);
+
+    // 生成新数组
+    const newList = mapDate(list);
+
     return (
-        <div>
-            <ul className="billlist">
-                {
-                    list.map((item, index) => {
-                        const [bill] = item.bills
-                        return <BillItem key={bill.id} item={item} />
-                    })
-                }
-            </ul>
+        <div className='billlist'>
+            {
+                newList.map((item, index) => {
+                    return <BillItem key={item.date} item={item}/>
+                })
+            }
         </div>
     )
 }
